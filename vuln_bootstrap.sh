@@ -45,7 +45,7 @@ sudo service nginx restart
 sleep 2
 sudo nginx -s reload
 
-# Download the CPnanoAgent - vm
+# Download the CPnanoAgent - vm Az
 until curl \
     --output /home/$name/cp-nano-egg \
     --url https://jlimachkpwaap01.blob.core.windows.net/waapfld02/cp-nano-egg ; do
