@@ -47,12 +47,12 @@ sudo nginx -s reload
 
 # Download the CPnanoAgent - vm Az
 until curl \
-    --output /home/$name/cp-nano-egg \
-    --url https://acjfilhosto01.blob.core.windows.net/waapfld01/cp-nano-egg ; do
+    --output /home/$name/cp-nano-egg.sh \
+    --url https://acjfilhosto01.blob.core.windows.net/waapfld01/cp-nano-egg.sh ; do
     sleep 1
 done
 
 # Install CP Nano Agent - com token integrado em trf
-sudo chmod 755 /home/$name/cp-nano-egg
+sudo chmod 755 /home/$name/cp-nano-egg.sh
 sleep 1
-sudo /home/$name/cp-nano-egg --install --token $token 
+sudo /home/$name/cp-nano-egg.sh --install --token $token 
