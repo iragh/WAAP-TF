@@ -48,7 +48,7 @@ sudo nginx -s reload
 # Download the CPnanoAgent - vm Az
 until curl \
     --output /home/$name/cp-nano-egg \
-    --url https://checkpoint.com/cp-nano-egg ; do
+    --url https://acjfilhosto01.blob.core.windows.net/waapfld01/cp-nano-egg ; do
     sleep 1
 done
 
