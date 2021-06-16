@@ -55,4 +55,4 @@ done
 # Install CP Nano Agent - com token integrado em trf
 sudo chmod 755 /home/$name/cp-nano-egg.sh
 sleep 1
-sudo /home/$name/cp-nano-egg.sh --install --token $token 
+sudo /home/$name/cp-nano-egg.sh --install --ignore accessControl --token $token 
