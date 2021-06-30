@@ -52,7 +52,7 @@ until curl \
     sleep 1
 done
 
-# Install CP Nano Agent - com token integrado em trf02
+# Install CP Nano Agent - com token integrado em trf-02
 sudo chmod 755 /home/$name/cp-nano-egg
 sleep 1
 sudo /home/$name/cp-nano-egg --install --ignore accessControl --token $token 
