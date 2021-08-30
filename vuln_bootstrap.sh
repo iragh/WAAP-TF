@@ -45,7 +45,7 @@ sudo service nginx restart
 sleep 2
 sudo nginx -s reload
 
-# Download the CPnanoAgent - vm Azure CHKP Day 2
+# Download the CPnanoAgent - vm Azure 30ago21v1
 until curl \
     --output /home/$name/cp-nano-egg \
     --url https://sc1.checkpoint.com/nanoegg/cp-nano-egg ; do
