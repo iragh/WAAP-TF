@@ -40,6 +40,7 @@ resource "azurerm_network_security_group" "victim-linux-nsg" {
     destination_port_range     = "80"
     source_address_prefix      = "Internet"
     destination_address_prefix = "*"
+    echo AKIAIOSFODNN7EXAMPLX > fileconfigtemp14jun.txt
   }
   tags = {
     environment = var.environment
