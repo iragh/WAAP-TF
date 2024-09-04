@@ -43,7 +43,7 @@ variable "environment" {
 variable "vulnvm-name" {
   type        = string
   description = "Name of Vulnerable VM"
-  default     = "CheckPointAppSecDemo"
+  default     = "WAFCheckPointDemo"
 }
 
 # username
